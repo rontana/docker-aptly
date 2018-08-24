@@ -78,4 +78,4 @@ COPY assets/update_mirror/update_mirror_ubuntu.sh /opt/update_mirror.sh
 VOLUME [ "/opt/aptly" ]
 
 # Execute Startup script when container starts
-ENTRYPOINT [ "/opT/startup.sh" ]
+ENTRYPOINT [ "/opt/startup.sh" ]
